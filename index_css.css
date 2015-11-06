@@ -1,0 +1,101 @@
+﻿body {
+    text-align: center;
+    position: relative;
+}
+
+#box {
+    top: 10%;
+    width: 362px;
+    
+}
+
+#display {
+    background-color: rgb(22,26,35);
+    border: 1px solid purple;
+    text-align: center;
+    height: 210px;
+    position: relative;
+}
+
+#on {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 350px;
+}
+
+#input {
+    overflow: hidden;
+    margin-top: 120px;
+    margin-right: 10px;
+}
+
+span {
+    border: 0;
+    text-align: right;
+    background-color: inherit;
+    color: white;
+    float: right;
+    font-family: arial,sans-serif;
+    font-weight: lighter;
+}
+
+#on_display {
+    color: rgb(250, 227, 43);
+    height: auto;
+    font-size: 16px;
+    width: 350px;
+    white-space: pre-wrap;
+    word-wrap:break-word; 
+}
+
+#input_display {
+    height: 60px;
+    font-size: 60px;
+}
+
+#input_button {
+    border: 1px solid purple;
+    overflow: hidden;
+}
+
+#left {
+    display: inline;
+    float: left;
+    width: 270px;
+}
+
+#symbol_and_result {
+    float: left;
+    width: 90px;
+}
+
+#num {
+    display: inline;
+}
+
+button {
+    outline: none;
+    color: white;
+    float: left;
+    padding: 0;
+    width: 90px;
+    height: 57px;
+    border: 0;
+    font-size: 20px;
+}
+
+#num button {
+    background-color: rgb(51,59,80);
+}
+
+#fun button {
+    background-color: rgb(20,25,31);
+}
+
+#symbol_and_result button {
+    background-color: rgb(39,47,66);
+}
+
+button:hover {
+    opacity: 0.9;
+}
