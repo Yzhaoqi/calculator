@@ -1,21 +1,22 @@
 ﻿body {
     text-align: center;
     position: relative;
+    border: 0;
 }
 
 #box {
     position: absolute;
     left: 0;
     right: 0;
-    top: 10%;
-    width: 362px;
+    top: 50px;
+    width: 360px;
     margin: auto;
 }
 
 #display {
     background-color: rgb(22,26,35);
-    border: 1px solid purple;
     text-align: center;
+    overflow: hidden;
     height: 210px;
     position: relative;
 }
@@ -30,6 +31,7 @@
     overflow: hidden;
     margin-top: 120px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 span {
@@ -57,7 +59,6 @@ span {
 }
 
 #input_button {
-    border: 1px solid purple;
     overflow: hidden;
 }
 
